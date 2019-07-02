@@ -5,7 +5,7 @@
         <attr name="starCount" format="integer" />
         <attr name="starEmpty" format="reference" />
         <attr name="starFill" format="reference" />
-        <attr name="isclick" format="boolean"/>
+        <attr name="isClickable" format="boolean"/>
         <attr name="showFillStarcount" format="integer"/>
     </declare-styleable>
 

@@ -42,14 +42,13 @@ class RatingBarView @JvmOverloads constructor(context: Context, attrs: Attribute
 
 
     init {
-        orientation = LinearLayout.VERTICAL
 
         val a = context.obtainStyledAttributes(attrs, R.styleable.RatingBarView)
         starImageSize = a.getDimension(R.styleable.RatingBarView_starImageSize, 20f)
         starCount = a.getInteger(R.styleable.RatingBarView_starCount, 5)
         starEmptyDrawable = a.getDrawable(R.styleable.RatingBarView_starEmpty)
         starFillDrawable = a.getDrawable(R.styleable.RatingBarView_starFill)
-        mClickable = a.getBoolean(R.styleable.RatingBarView_isclick, true)
+        mClickable = a.getBoolean(R.styleable.RatingBarView_isClickable, true)
         showFillStarcount = a.getInteger(R.styleable.RatingBarView_showFillStarcount, 1)
 
 
